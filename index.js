@@ -1,10 +1,15 @@
+
+// hamburger
+
 hamburger = document.querySelector('.hamburger');
 hamburger.onclick = function () {
     navBar = document.querySelector('.nav-bar');
     navBar.classList.toggle('active');
 }
 
-var countDownDate = new Date("June 4, 2023 15:37:25").getTime();
+// Countdown timer
+
+var countDownDate = new Date("June 30, 2023 23:59:59").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
